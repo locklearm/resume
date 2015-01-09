@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="libs/perst/perst.jar" sourcepath="C:/Users/Martin/Downloads/Installers/perst/perst-435/perst/src">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/Martin/Downloads/Installers/perst/perst-435/perst/doc/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/svnkit/antlr-runtime-3.4.jar"/>
+	<classpathentry kind="lib" path="libs/svnkit/jna-3.5.2.jar"/>
+	<classpathentry kind="lib" path="libs/svnkit/jsch.agentproxy.connector-factory-0.0.7.jar"/>
+	<classpathentry kind="lib" path="libs/svnkit/jsch.agentproxy.core-0.0.7.jar"/>
+	<classpathentry kind="lib" path="libs/svnkit/jsch.agentproxy.pageant-0.0.7.jar"/>
+	<classpathentry kind="lib" path="libs/svnkit/jsch.agentproxy.sshagent-0.0.7.jar"/>
+	<classpathentry kind="lib" path="libs/svnkit/jsch.agentproxy.svnkit-trilead-ssh2-0.0.7.jar"/>
+	<classpathentry kind="lib" path="libs/svnkit/jsch.agentproxy.usocket-jna-0.0.7.jar"/>
+	<classpathentry kind="lib" path="libs/svnkit/jsch.agentproxy.usocket-nc-0.0.7.jar"/>
+	<classpathentry kind="lib" path="libs/svnkit/platform-3.5.2.jar"/>
+	<classpathentry kind="lib" path="libs/svnkit/sequence-library-1.0.2.jar"/>
+	<classpathentry kind="lib" path="libs/svnkit/sqljet-1.1.10.jar"/>
+	<classpathentry kind="lib" path="libs/svnkit/svnkit-1.8.5.jar" sourcepath="/svnkit/src"/>
+	<classpathentry kind="lib" path="libs/svnkit/svnkit-cli-1.8.5.jar"/>
+	<classpathentry kind="lib" path="libs/svnkit/svnkit-javahl16-1.8.5.jar"/>
+	<classpathentry kind="lib" path="libs/svnkit/trilead-ssh2-1.0.0-build217.jar"/>
+	<classpathentry kind="lib" path="libs/commons-io/commons-io-2.4.jar" sourcepath="libs/commons-io/commons-io-2.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/FaultBench-Latest/libs/commons-io/commons-io-2.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/commons-exec/commons-exec-1.2.jar" sourcepath="libs/commons-exec/commons-exec-1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/FaultBench-Latest/libs/commons-exec/commons-exec-1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/eclipse-astparser/org.eclipse.core.contenttype_3.4.200.v20130326-1255.jar"/>
+	<classpathentry kind="lib" path="libs/eclipse-astparser/org.eclipse.core.jobs_3.5.300.v20130429-1813.jar"/>
+	<classpathentry kind="lib" path="libs/eclipse-astparser/org.eclipse.core.resources_3.8.101.v20130717-0806.jar"/>
+	<classpathentry kind="lib" path="libs/eclipse-astparser/org.eclipse.core.runtime_3.9.0.v20130326-1255.jar"/>
+	<classpathentry kind="lib" path="libs/eclipse-astparser/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar"/>
+	<classpathentry kind="lib" path="libs/eclipse-astparser/org.eclipse.equinox.preferences_3.5.100.v20130422-1538.jar"/>
+	<classpathentry kind="lib" path="libs/eclipse-astparser/org.eclipse.jdt.core_3.9.1.v20130905-0837.jar"/>
+	<classpathentry kind="lib" path="libs/eclipse-astparser/org.eclipse.osgi_3.9.1.v20130814-1242.jar"/>
+	<classpathentry kind="lib" path="libs/findbugs/annotations.jar"/>
+	<classpathentry kind="lib" path="libs/findbugs/ant.jar"/>
+	<classpathentry kind="lib" path="libs/findbugs/asm-3.3.jar"/>
+	<classpathentry kind="lib" path="libs/findbugs/asm-analysis-3.3.jar"/>
+	<classpathentry kind="lib" path="libs/findbugs/asm-commons-3.3.jar"/>
+	<classpathentry kind="lib" path="libs/findbugs/asm-tree-3.3.jar"/>
+	<classpathentry kind="lib" path="libs/findbugs/asm-util-3.3.jar"/>
+	<classpathentry kind="lib" path="libs/findbugs/asm-xml-3.3.jar"/>
+	<classpathentry kind="lib" path="libs/findbugs/bcel.jar"/>
+	<classpathentry kind="lib" path="libs/findbugs/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="libs/findbugs/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="libs/findbugs/findbugs-ant.jar"/>
+	<classpathentry kind="lib" path="libs/findbugs/findbugs.jar"/>
+	<classpathentry kind="lib" path="libs/findbugs/jaxen-1.1.6.jar"/>
+	<classpathentry kind="lib" path="libs/findbugs/jcip-annotations.jar"/>
+	<classpathentry kind="lib" path="libs/findbugs/jdepend-2.9.jar"/>
+	<classpathentry kind="lib" path="libs/findbugs/jFormatString.jar"/>
+	<classpathentry kind="lib" path="libs/findbugs/jsr305.jar"/>
+	<classpathentry kind="lib" path="libs/findbugs/yjp-controller-api-redist.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
