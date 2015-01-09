@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WolfWear</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="welcome_greeting">Welcome to WolfWear!  My name is Fashionastoria, and I am your personal stylist to help you dress right for your interview. \n
+        First, I\'d like to get to know you.  Can you click the start button and tell me a single word that describes you?</string>
+    <string name="photo_name">fashionable lady</string>
+    <string name="default_options_text">Sample Response Options</string>
+    <string name="default_frame_text">Current Frame State</string>
+    <string name="default_button_text">Start</string>
+    <string name="default_heard_text">I heard you say: </string>
+</resources>

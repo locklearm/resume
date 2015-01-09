@@ -1,0 +1,94 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:textAlignment="center"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/cartoonWoman"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/business_woman"
+        android:contentDescription="@string/photo_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/cartoonWoman"
+        android:text="@string/welcome_greeting"
+        android:id="@+id/mainTextDisplayTextView"
+        android:gravity="left"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textIsSelectable="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/optionsTextDisplayTextView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/mainTextDisplayTextView"
+        android:gravity="center"
+        android:background="@drawable/my_options_textfield"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/default_options_text"
+        android:id="@+id/optionsTextDisplayTextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/optionsTextDisplayTextView"
+        android:text="@string/default_heard_text"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:id="@+id/optionsAppHeardTextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/optionsAppHeardTextView"
+        android:text="@string/default_frame_text"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:id="@+id/optionsFrameStateTextView"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/default_button_text"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/my_button"
+        android:id="@+id/speechButton"
+        android:layout_below="@+id/optionsFrameStateTextView"
+        android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
