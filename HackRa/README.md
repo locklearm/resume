@@ -1,0 +1,1 @@
+These are some submissions I've made to HackerRank a couple years ago.  I'm probably most proud of the baconian cipher -- I'm ranked 30th, even after 2 years.
