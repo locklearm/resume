@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BlackBoxTestPlan>
+
+	<test id="UC47_MainFlow">
+        <role>Patient</role>
+        <dateAdded>9/8/2013</dateAdded>
+        <usecase>47</usecase>
+        <description>
+            <precondition>Patient 2 is logged in</precondition>
+            <step>Patient 2 clicks "Find an Expert"</step>
+            <step>Patient 2 selects "Surgeon" from the drop down menu labeled "Speciality"</step>
+            <step>Patient 2 clicks button labeled "Find Expert"</step>
+        </description>
+        <expectedResults>
+            <eResult>Patient 2 is presented with a list of hospitals and their doctors who are within the same zip code as the stored Patient 2 zip code, and who have the speciality of Surgeon, including Kelly Doctor.</eResult>
+        </expectedResults>
+    </test>
+    
+    <test id="UC47_CustomPatientZIP">
+        <role>Patient</role>
+        <dateAdded>9/8/2013</dateAdded>
+        <usecase>47</usecase>
+        <description>
+            <precondition>Patient 2 is logged in</precondition>
+            <step>Patient 2 clicks "Find an Expert"</step>
+            <step>Patient 2 selects "Surgeon" from the drop down menu labeled "Speciality"</step>
+            <step>Patient 2 clicks button labeled "Find Expert"</step>
+            <step>Patient 2 enters the string "27665" in the zip code field and clicks button labeled "Find Expert"</step>
+        </description>
+        <expectedResults>
+            <eResult>Patient 2 is presented with a list of hospitals and their doctors who are within the same zip code as 27665, and who have the speciality of Surgeon, including Kelly Doctor.</eResult>
+        </expectedResults>
+    </test>
+    
+     <test id="UC47-InvalidPatientZIP">
+        <role>Patient</role>
+        <dateAdded>9/8/2013</dateAdded>
+        <usecase>47</usecase>
+        <description>
+            <precondition>Patient 2 is logged in</precondition>
+            <step>Patient 2 clicks "Find an Expert"</step>
+            <step>Patient 2 selects "Surgeon" from the drop down menu labeled "Speciality"</step>
+            <step>Patient 2 clicks button labeled "Find Expert"</step>
+            <step>Patient 2 enters the string "abc" in the zip code field and clicks button labeled "Find Expert"</step>
+        </description>
+        <expectedResults>
+            <eResult>Patient 2 is present with message "Invalid zip code"</eResult>
+        </expectedResults>
+    </test>
+
+</BlackBoxTestPlan>
